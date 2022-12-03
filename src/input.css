@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leenk {
+  @apply ml-2 text-white text-xl;
+}
+
+

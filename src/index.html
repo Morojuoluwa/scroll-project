@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1000" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/18dfbf6c92.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      class="min-h-screen bg-cover bg-no-repeat"
+      style="
+        background-image: linear-gradient(
+            rgba(63, 208, 212, 0.5),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url('/imgs/hero-bcg.jpeg');
+      "
+    >
+      <nav class="py-3 px-3 bg-transparent w-full">
+        <div class="nav-contain flex justify-between">
+          <div class="nav-header flex justify-between">
+            <img class="h-14" src="/logo.svg" alt="logoo" />
+            <button class="text-3xl" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container sm:visible mr-24 w-1/3">
+            <ul class="links flex justify-around items-center">
+              <li>
+                <a href="#home" class="scroll-link leenk">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link leenk">About</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link leenk">Services</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link leenk">Tours</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="manecontent min-h-screen flex justify-center items-center mx-auto my-0 text-center max-w-sm"
+      >
+        <div class="insider">
+          <h1 class="tracking-wide mb-3 text-3xl  text-white sm:text-pink-700 "></h1>
+            scroll project
+          </h1>
+          <p class=" text-white md:text-green-300 mb-5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+            dignissimos omnis mollitia qui corporis, dolorum velit aut
+            repellendus consequatur architecto?
+          </p>
+          <a
+            href="#tours"
+            class="scroll-link border-solid border-2 text-white border-white px-3 py-2"
+            >Explore Tours</a
+          >
+        </div>
+      </div>
+    </header>
+    <section id="about" class="h-hyt">
+      <div class="title pt-0">
+        <h2 class="flex justify-center text-3xl text-slate-600 leading-4">
+          about<span class="text-sky-300 ml-2">us</span>
+        </h2>
+      </div>
+    </section>
+    <section id="about" class="h-hyt bg-slate-200">
+      <div class="title">
+        <h2 class="flex justify-center text-3xl text-slate-600 leading-4">
+          our<span class="text-sky-300 ml-2">services</span>
+        </h2>
+      </div>
+    </section>
+    <section id="about" class="h-hyt">
+      <div class="title">
+        <h2 class="flex justify-center text-3xl text-slate-600 leading-4">
+          featured<span class="text-sky-300 ml-2">tours</span>
+        </h2>
+      </div>
+    </section>
+    <footer class="text-center bg-gray-100">
+      <div class="sect">
+        <p class="uppercase py-20 px-2">
+          copyright &copy; travel and tours company
+          <span class="date"></span> all rights reserved
+        </p>
+      </div>
+    </footer>
+    <a href="#home" class="invisible overflow-hidden"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
+    <script src="scroll.js"></script>
+  </body>
+</html>
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
