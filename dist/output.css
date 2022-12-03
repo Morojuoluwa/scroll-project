@@ -708,6 +708,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -751,11 +756,6 @@ video {
   .sm\:text-pink-700 {
     --tw-text-opacity: 1;
     color: rgb(190 24 93 / var(--tw-text-opacity));
-  }
-
-  .sm\:text-purple-600 {
-    --tw-text-opacity: 1;
-    color: rgb(147 51 234 / var(--tw-text-opacity));
   }
 }
 
